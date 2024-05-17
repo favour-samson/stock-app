@@ -69,8 +69,8 @@ const Newsletter = () => {
           </div>
         </div>
 
-        <div className="w-full block md:hidden ">
-          <div className="bg-secondary-300 pt-[43.66px] md:pt-0  mx-auto relative  max-w-[576px] h-[323px]">
+        {/* <div className="w-full block md:hidden ">
+          <div className="bg-secondary-300 pt-[43.66px] md:pt-0  mx-auto relative  w-full h-[323px]">
             <Image
               alt="newsletter"
               src={MoiblePhone1}
@@ -86,6 +86,33 @@ const Newsletter = () => {
               className="object-cover absolute left-[205px] top-[48px]"
             />
           </div>
+        </div> */}
+
+        <div className="bg-secondary-300 pt-[43.66px] md:pt-0 mx-auto relative w-full h-[323px]">
+          <Image
+            alt="newsletter"
+            src={MoiblePhone1}
+            width={198.42}
+            height={404.44}
+            className="object-cover absolute"
+            style={{
+              left: "50%",
+              top: "50%",
+              transform: "translate(-150.21px, -102.22px)",
+            }}
+          />
+          <Image
+            alt="newsletter"
+            src={MobilePhone2}
+            width={198.42}
+            height={404.44}
+            className="object-cover absolute"
+            style={{
+              left: "50%",
+              top: "50%",
+              transform: "translate(-59.21px, -152.22px)",
+            }}
+          />
         </div>
       </div>
     </div>
