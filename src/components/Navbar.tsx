@@ -4,8 +4,7 @@ import { MdOutlineLightMode } from "react-icons/md";
 
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/images/logo.png";
-import navTopImage from "@/images/navtop.png";
+import logo from "../../public/images/logo.png";
 import Button from "./Button";
 import Icon from "./NavTopIcon";
 import ThemeToggle from "./ThemesToggle";

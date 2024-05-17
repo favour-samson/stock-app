@@ -60,11 +60,11 @@
 // export default MobileSection;
 
 import Image from "next/image";
-import MobileApp from "@/images/app.png";
-import MobileAppSmall from "@/images/mobileappsmall.png";
+import MobileApp from "../../public/images/app.png";
+import MobileAppSmall from "../../public/images/mobileappsmall.png";
 import DownloadButton from "./DownloadButton";
-import AppleLogo from "@/images/Applelogo.png";
-import GoogleLogo from "@/images/Google Play logo_Light.png";
+import AppleLogo from "../../public/images/Applelogo.png";
+import GoogleLogo from "../../public/images/Google Play logo_Light.png";
 
 const MobileSection = () => {
   return (

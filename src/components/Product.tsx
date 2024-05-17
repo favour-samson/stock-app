@@ -1,7 +1,7 @@
 // components/ProductSection.tsx
 import React from "react";
 import Image from "next/image";
-import mobileDevicesImage from "@/images/product.png";
+import mobileDevicesImage from "../../public/images/product.png";
 import SectionHeader from "./SectionHeader";
 import Button from "./Button";
 
