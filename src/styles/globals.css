@@ -1,0 +1,42 @@
+/* styles/globals.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#ffffff] mx-auto max-w-[1440px] my-0;
+  }
+  .dark body {
+    @apply bg-gray-800;
+  }
+}
+
+body {
+  font-family: "Pathway Extreme", sans-serif;
+}
+
+.dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.hero {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.svg-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.clip-container {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
