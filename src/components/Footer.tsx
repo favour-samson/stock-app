@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "./Button";
-import FooterLogo from "../../public/images/Featured icon.png";
+import FooterLogo from "@/images/Featured icon.png";
 import Image from "next/image";
 import Link from "next/link";
 import DownloadButton from "./DownloadButton";
-import AppleLogo from "../../public/images/Applelogo.png";
-import GoogleLogo from "../../public/images/Google Play logo_Light.png";
+import AppleLogo from "@/images/Applelogo.png";
+import GoogleLogo from "@/images/Google Play logo_Light.png";
 import { RxTwitterLogo } from "react-icons/rx";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { CiFacebook } from "react-icons/ci";

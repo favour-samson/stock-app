@@ -1,19 +1,19 @@
 import { useState } from "react";
 import { FaBars, FaRegLightbulb, FaTimes } from "react-icons/fa";
-import { MdOutlineLightMode } from "react-icons/md";
-
+import NavTopImage from "@/images/navtop.png";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/images/logo.png";
+import logo from "@/images/logo.png";
 import Button from "./Button";
-import Icon from "./NavTopIcon";
 import ThemeToggle from "./ThemesToggle";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="w-full bg-[#EFF9F9] md:h-[213px] overflow-hidden">
-      <Icon />
+      <div>
+        <Image src={NavTopImage} alt="" width={1444} height={74} />
+      </div>
       <nav className="max-w-[1280px] pt-[40px] mx-auto h-auto bg-[#EFF9F9] flex items-center justify-between p-4 text-white">
         <div className="font-bold text-xl flex items-center">
           <Link href="/">

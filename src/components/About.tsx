@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import AboutImg from "../../public/images/about.png";
+import AboutImg from "@/images/about.png"; 
 import SectionHeader from "./SectionHeader";
 
 const AboutSection = () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "./Button";
-import Avatar3 from "../../public/images/Avatar (1).png";
-import Avatar2 from "../../public/images/Avatar (2).png";
-import Avatar1 from "../../public/images/Avatar.png";
+import Avatar3 from "@/images/Avatar (1).png";
+import Avatar2 from "@/images/Avatar (2).png";
+import Avatar1 from "@/images/Avatar.png";
 import Image from "next/image";
 
 const GetInTouch = () => {

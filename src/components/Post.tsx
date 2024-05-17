@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "./Button";
-import Post1 from "../../public/images/post1.png";
-import Post2 from "../../public/images/Image2.png";
-import Post3 from "../../public/images/Image3.png";
-import User1 from "../../public/images/user1.png";
-import User2 from "../../public/images/Rectangle2.png";
-import User3 from "../../public/images/Rectangle3.png";
+import Post1 from "@/images/post1.png";
+import Post2 from "@/images/Image2.png";
+import Post3 from "@/images/Image3.png";
+import User1 from "@/images/user1.png";
+import User2 from "@/images/Rectangle2.png";
+import User3 from "@/images/Rectangle3.png";
 import { LuArrowUpRight } from "react-icons/lu";
 import PostCard from "./PostCard";
 import SectionHeaderMobile from "./mobile/SectionHeader";

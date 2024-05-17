@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "./Button";
-import Phone1 from "../../public/images/iPhone 12 Pro mockup (1).png";
-import MoiblePhone1 from "../../public/images/iPhone 12 Pro mockup mobile1.png";
-import Phone2 from "../../public/images/iPhone 12 Pro mockup.png";
-import MobilePhone2 from "../../public/images/iPhone 12 Pro mockup mobile2.png";
+import Phone1 from "@/images/iPhone 12 Pro mockup (1).png";
+import MoiblePhone1 from "@/images/iPhone 12 Pro mockup mobile1.png";
+import Phone2 from "@/images/iPhone 12 Pro mockup.png";
+import MobilePhone2 from "@/images/iPhone 12 Pro mockup mobile2.png";
 import Image from "next/image";
 
 const Newsletter = () => {

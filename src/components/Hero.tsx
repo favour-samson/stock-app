@@ -1,8 +1,8 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import DownloadButton from "./DownloadButton";
-import AppleLogo from "../../public/images/Applelogo.png";
-import GoogleLogo from "../../public/images/GooglePlaylogo.png";
+import AppleLogo from "@/images/Applelogo.png";
+import GoogleLogo from "@/images/GooglePlaylogo.png";
 import VideoPlayer from "./VideoPlayer";
 const Hero = () => {
   return (

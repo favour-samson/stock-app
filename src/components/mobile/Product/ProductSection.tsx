@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import ProductImage from "../../../../public/images/productmobile.png";
+import ProductImage from "@/images/productmobile.png";
 import SectionHeaderMobile from "../SectionHeader";
 const ProductSectionMobile = () => {
   return (

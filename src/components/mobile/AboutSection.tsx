@@ -1,7 +1,7 @@
 import React from "react";
 import SectionHeader from "./SectionHeader";
 import About from "./About";
-import AboutImg from "../../../../public/images/aboutimgg.png";
+import AboutImg from "@/images/aboutimgg.png";
 import Image from "next/image";
 
 const AboutSectionMobile = () => {
