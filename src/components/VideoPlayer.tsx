@@ -1,11 +1,16 @@
 import React from "react";
-import NextVideo from "next-video";
-import video from "../videos/videoplayback.mp4";
+import ReactPlayer from "react-player";
+import dd from "../videos/videoplayback.mp4";
 const VideoPlayer = () => {
   return (
-    <div className="overflow-hidden rounded-md max-w-[768px] h-[342px] px-5">
-      <NextVideo src={video} />
-    </div>
+    <ReactPlayer
+      width="768px"
+      height="432px"
+      url="https://www.youtube.com/watch?v=p7HKvqRI_Bo"
+      controls={true}
+      light={false}
+      pip={true}
+    />
   );
 };
 

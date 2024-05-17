@@ -12,8 +12,8 @@ import SectionHeaderMobile from "./mobile/SectionHeader";
 import SectionHeader from "./SectionHeader";
 const Post = () => {
   return (
-    <div className="max-w-[1280px] h-auto md:h-[912px] bg-[#EAF8F8] md:bg-white mx-auto">
-      <div className=" md:h-[752px]  px-[32px] ">
+    <div className="max-w-[1280px] px-[32px] h-auto md:h-[912px] bg-[#EAF8F8] md:bg-white mx-auto">
+      <div className=" md:h-[752px]   ">
         <div className="flex-col flex md:flex-row items-center md:items-start justify-between">
           <div className="hidden md:block">
             <SectionHeader title="Learn" text="Lastest blog posts" />

@@ -1,4 +1,3 @@
-// components/ProductSection.tsx
 import React from "react";
 import Image from "next/image";
 import mobileDevicesImage from "@/images/product.png";

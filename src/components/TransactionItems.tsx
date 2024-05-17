@@ -1,4 +1,3 @@
-// TransactionItem.jsx
 import React from "react";
 
 interface TransactionItemProps {

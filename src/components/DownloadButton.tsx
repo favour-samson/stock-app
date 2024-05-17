@@ -23,8 +23,8 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
         <Image src={imgSrc} alt="Download" width={30} height={20} />
       </span>
       <span className="flex flex-col leading-5">
-        <small className="md:text-xs text-left">{smallText}</small>
-        <strong className="md:text-[20px] text-[14px]">{bigText}</strong>
+        <small className="md:text-xs text-[8px] text-left">{smallText}</small>
+        <strong className="md:text-[20px] text-[12px]">{bigText}</strong>
       </span>
     </button>
   );

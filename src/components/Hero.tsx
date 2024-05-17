@@ -3,6 +3,8 @@ import { FaArrowRight } from "react-icons/fa";
 import DownloadButton from "./DownloadButton";
 import AppleLogo from "@/images/Applelogo.png";
 import GoogleLogo from "@/images/GooglePlaylogo.png";
+import herePlayer from "@/images/Video player.png";
+import Image from "next/image";
 import VideoPlayer from "./VideoPlayer";
 const Hero = () => {
   return (
@@ -48,8 +50,16 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="absolute  rounded-md overflow-hidden z-20 bottom-[-250px] md:bottom-[-200px] left-1/2 transform -translate-x-1/2 w-full max-w-[768px] px">
-        <VideoPlayer />
+
+      <div className="absolute md:h-[432px]  rounded-md overflow-hidden z-20 bottom-[-115px] md:bottom-[-270px] left-1/2 transform -translate-x-1/2 w-full max-w-[768px] ">
+        <Image
+          alt="vido"
+          src={herePlayer}
+          width={768}
+          height={432}
+          className=""
+        />
+        {/* <VideoPlayer /> */}
       </div>
       <div className="md:hidden block">
         <div className="absolute  bottom-[-10px]">
