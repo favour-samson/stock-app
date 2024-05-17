@@ -20,11 +20,13 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
       className={`flex dm-sans items-center justify-center ${bgColor} border-2 text-white px-[10px] py-2 rounded-lg transition duration-300 ease-in-out `}
     >
       <span className="mr-2">
-        <Image src={imgSrc} alt="Download" width={30} height={20} />
+        <div className="w-full ">
+          <Image src={imgSrc} alt="Download" width={30} height={20} />
+        </div>
       </span>
       <span className="flex flex-col leading-5">
         <small className="md:text-xs text-[8px] text-left">{smallText}</small>
-        <strong className="md:text-[20px] text-[12px]">{bigText}</strong>
+        <strong className="md:text-[20px] text-[14px]">{bigText}</strong>
       </span>
     </button>
   );

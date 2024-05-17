@@ -16,7 +16,7 @@ const MobileSection = () => {
           <p className="md:text-[20px] text-[14px] leading-[18px] md:leading-[30px] font-normal px-[23px] md:px-0">
             Don&apos;t worry, Advisor is there to guide you!
           </p>
-          <div className="flex pt-[48px] px-[40.02px] md:px-0 pb-[21px] md:pb-0 w-full gap-[12px]">
+          <div className="flex flex-col sm:flex-row  pt-[48px] px-[40.02px] md:px-0 pb-[21px] md:pb-0 w-full gap-[12px] justify-between md:justify-start">
             <DownloadButton
               imgSrc={AppleLogo}
               smallText="Download on the"
