@@ -37,17 +37,17 @@ const faqData = [
 
 const FAQ = () => {
   return (
-    <div className="h-[586px] px-[32px] md:px-0">
-      <div className="max-w-[1280px] h-[432px] mx-auto px-[32px]">
+    <div className="md:h-[586px] py-[80px] px-[32px] md:px-0 dark:bg-[#222425]">
+      <div className="max-w-[1280px] md:h-[432px] mx-auto px-[32px]">
         <div className="flex-col md:flex-row flex justify-between ">
           <div className="w-[448px] hidden md:block">
-            <p className="font-semibold pb-[12px] text-[16px] leading-[24px] text-primary-500">
+            <p className="font-semibold dark:text-white pb-[12px] text-[16px] leading-[24px] text-primary-500">
               Support
             </p>
-            <h1 className="font-bold dm-sans text-[36px] leading-[44px] text-primary-400">
+            <h1 className="font-bold dark:text-white dm-sans text-[36px] leading-[44px] text-primary-400">
               FAQs
             </h1>
-            <p className="font-normal pt-[20px] text-[18px] leading-[28px] text-[#6B7878]">
+            <p className="font-normal pt-[20px] dark:text-[#6B7878] text-[18px] leading-[28px] text-[#6B7878]">
               Everything you need to know about us and our market. Can’t find
               the answer you’re looking for? Please chat to our friendly team.
             </p>

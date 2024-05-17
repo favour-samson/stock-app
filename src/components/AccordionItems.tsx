@@ -23,7 +23,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         className="flex justify-between items-center w-full py-4 text-left"
         onClick={onClick}
       >
-        <span className="font-medium  text-[12.38px] md:text-[18px] md:leading-[28px] leading-[24.75px] text-primary-400">
+        <span className="font-medium dark:text-white text-[12.38px] md:text-[18px] md:leading-[28px] leading-[24.75px] text-primary-400">
           {title}
         </span>
         <div className="hidden md:block">
@@ -51,7 +51,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
           isOpen ? "max-h-96" : "max-h-0"
         } overflow-hidden`}
       >
-        <div className="font-normal text-[16px] leading-[24px] text-[#3B4B4B]">
+        <div className="font-normal dark:text-[#D9E2E2] text-[16px] leading-[24px] text-[#3B4B4B]">
           <p>{content}</p>
         </div>
       </div>

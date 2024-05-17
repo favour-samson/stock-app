@@ -26,10 +26,10 @@ const About: React.FC<AboutProps> = ({ title, description }) => {
         </div>
       </div>
 
-      <h1 className="text-[#101828] pt-[10px] px-[30.5px] dm-sans text-[16px] font-bold text-center leading-[30px]">
+      <h1 className="text-[#101828] dark:text-white pt-[10px] px-[30.5px] dm-sans text-[16px] font-bold text-center leading-[30px]">
         {title}
       </h1>
-      <p className="text-[#475467] px-[17.5px] pt-[8px] text-[14px] text-center leading-[24px]">
+      <p className="text-[#475467] dark:text-white px-[17.5px] pt-[8px] text-[14px] text-center leading-[24px]">
         {description}
       </p>
     </div>

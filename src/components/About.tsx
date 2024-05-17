@@ -1,17 +1,17 @@
 import React from "react";
 import Image from "next/image";
-import AboutImg from "@/images/about.png"; 
+import AboutImg from "@/images/about.png";
 import SectionHeader from "./SectionHeader";
 
 const AboutSection = () => {
   return (
-    <div className="h-[935px] flex items-center justify-center">
+    <div className="h-[834px] dark:bg-[#131414] pt-[80px]">
       <div className="px-[32px] max-w-[1280px] mx-auto h-[730px]">
         <SectionHeader title="About Us" text="Unlock the World of Investment" />
 
         <div className="flex flex-col  justify-between md:flex-row">
           <div className="w-[527px] text-[20px] leading-[30px] font-normal">
-            <p className="text-gray-700 mb-4">
+            <p className="text-[#131414] dark:text-white mb-4">
               We are one of Africa&apos;s leading Securities Trading and Dealing
               Companies headquartered in Lagos, Nigeria. We provide world
               dealing services and products to clients BGL Securities leverages
@@ -19,7 +19,7 @@ const AboutSection = () => {
               unique human resources to deliver excellent and value added
               services to clients.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-[#131414] dark:text-white mb-4">
               We provide world class Securities and Dealing services to our
               clients made up of local and International retail, and High Net
               Worth Investors as well as Local and International Institutional

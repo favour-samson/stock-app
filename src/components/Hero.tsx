@@ -9,27 +9,27 @@ import VideoPlayer from "./VideoPlayer";
 const Hero = () => {
   return (
     <div className=" relative ">
-      <div className=" hero h-[420px] px-[19px] md:px-0 md:h-[650px] bg-[#EFF9F9]  pt-[39px]">
-        <div className="max-w-[367px] flex justify-between pr-[7.33px] items-center mx-auto bg-secondary-500 rounded-[16px] h-[32px] border-primary-500 border-[1.5px]">
-          <div className="w-[107px] flex items-center justify-center text-center ml-[4px] mr-[12px] bg-secondary-500 rounded-[16px] h-[24px] border-primary-500 border-[1.5px]">
-            <p className="text-primary-500 text-center font-medium md:text-[14px] text-[8px]">
+      <div className=" hero h-[420px] dark:bg-[#131414] px-[19px] md:px-0 md:h-[650px] bg-[#EFF9F9]  pt-[39px]">
+        <div className="max-w-[367px]  dark:bg-[#131414] flex  justify-between md:justify-start pr-[7.33px] items-center mx-auto bg-secondary-500 dark:border-[#FD891C] rounded-[16px] h-[32px] border-primary-500 border-[1.5px]">
+          <div className="w-[107px] flex items-center justify-center  text-center ml-[4px] mr-[12px]  rounded-[16px] h-[24px] dark:border-[#FD891C] border-primary-500 border-[1.5px]">
+            <p className="dark:text-white  text-primary-500 text-center font-medium md:text-[14px] text-[8px]">
               New feature
             </p>
           </div>
-          <div className="flex items-center justify-center">
-            <span className="text-primary-500 font-medium md:text-[14px] text-[8px] ">
+          <div className="flex items-center justify-between w-[234px]">
+            <span className="dark:text-white text-primary-500 font-medium md:text-[13px] text-[8px] ">
               Check out the new dashboard
             </span>
             <FaArrowRight color="#96CCCC" />
           </div>
         </div>
         <div className="max-w-[1024px] pt-[16px] mx-auto">
-          <h1 className="text-primary-500 text-center font-bold md:leading-[72px] text-[32px] leading-[32px]  md:text-[60px] dm-sans">
+          <h1 className="dark:text-white text-primary-500 text-center font-bold md:leading-[72px] text-[32px] leading-[32px]  md:text-[60px] dm-sans">
             Navigate the dynamic world of financial markets.
           </h1>
         </div>
         <div className="max-w-[768px] pt-[24px] mx-auto">
-          <p className="text-primary-500 text-[10px] leading-[16px] text-center font-normal md:leading-[30px]  md:text-[20px]">
+          <p className="dark:text-white text-primary-500 text-[10px] leading-[16px] text-center font-normal md:leading-[30px]  md:text-[20px]">
             Our mission is to empower you with the tools and knowledge to take
             control of your financial future success should be within reach for
             everyone.

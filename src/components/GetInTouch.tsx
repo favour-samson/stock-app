@@ -7,9 +7,9 @@ import Image from "next/image";
 
 const GetInTouch = () => {
   return (
-    <div className="md:h-[405px] px-[32px] md:px-0 pt-[107.51px] md:pt-0">
-      <div className="max-w-[1280px] mx-auto px-[32px]">
-        <div className="max-w-[1216px] md:h-[294px] relative bg-[#EAF8F8] rounded-[16px]">
+    <div className="md:h-[405px] dark:bg-[#1C1F1F] py-[80px] px-[32px] md:px-0 ">
+      <div className="max-w-[1280px]  mx-auto px-[32px] ">
+        <div className="max-w-[1216px] md:h-[294px] relative bg-[#EAF8F8] dark:bg-[#131414] rounded-[16px]">
           <div className="relative w-[120px] mx-auto flex items-center justify-center ">
             <Image
               src={Avatar1}
@@ -34,10 +34,10 @@ const GetInTouch = () => {
             />{" "}
           </div>
           <div className="pt-[120px] px-[46px] max-w-[768px] text-center mx-auto">
-            <p className="font-bold text-[20px] dm-sans leading-[30px] text-primary-400">
+            <p className="font-bold text-[20px] dark:text-white dm-sans leading-[30px] text-primary-400">
               Still have questions?
             </p>
-            <p className="font-normal md:text-[18px] text-[16px] leading-[28px] text-[#6B7878]">
+            <p className="font-normal md:text-[18px] text-[16px] leading-[28px] dark:text-[#83796B] text-[#6B7878]">
               Can’t find the answer you’re looking for? Please chat to our
               friendly team.
             </p>

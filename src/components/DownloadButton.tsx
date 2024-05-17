@@ -17,7 +17,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
 }) => {
   return (
     <button
-      className={`flex dm-sans items-center justify-center ${bgColor} border-2 text-white px-[10px] py-2 rounded-lg transition duration-300 ease-in-out `}
+      className={`flex dm-sans items-center dark:border-[#DA8E23] dark:bg-[#131414] justify-center ${bgColor} border-2 text-white px-[10px] py-2 rounded-lg transition duration-300 ease-in-out `}
     >
       <span className="mr-2">
         <div className="w-full ">

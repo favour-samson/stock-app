@@ -8,13 +8,13 @@ import Image from "next/image";
 
 const Newsletter = () => {
   return (
-    <div className="h-[672px] pt-[184px]">
-      <div className="max-w-[1280px] flex-col md:flex-row flex items-center justify-between mx-auto ">
-        <div className="w-full md:px-[32px] px-[26px]">
-          <h1 className="font-bold text-[24px] leading-[24px] md:text-[48px] dm-sans md:leading-[60px] text-primary-400">
+    <div className="md:h-[672px]  py-[80px] px-[80px] dark:bg-[#131414]">
+      <div className="max-w-[1280px]  flex-col md:flex-row flex items-center justify-between mx-auto ">
+        <div className="w-full md:px-[32px] ">
+          <h1 className="font-bold text-[24px] leading-[24px] md:text-[48px] dm-sans md:leading-[60px] text-primary-400 dark:text-white">
             Join 2,000+ subscribers
           </h1>
-          <p className="pt-[24px] text-[14px] leading-[25px] max-w-[480px] font-normal md:text-[20px] md:leading-[30px] text-[#3B4B4B]">
+          <p className="pt-[24px] text-[14px] leading-[25px] max-w-[480px] font-normal md:text-[20px] md:leading-[30px] text-[#3B4B4B] dark:text-white">
             We’re still building. Subscribe for updates. No spam, we promise!
           </p>
           <div className="hidden md:block">
@@ -37,7 +37,7 @@ const Newsletter = () => {
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="px-[12px] border w-full h-[48px] rounded-[8px]"
+                className="px-[12px] border w-full h-[48px]  rounded-[8px]"
               />
               <p className="pt-[14px] text-[11.69px] leading-[16px] font-normal md:text-[20px] md:leading-[20px] text-[#475467]">
                 We care about your data in our{" "}
@@ -50,8 +50,8 @@ const Newsletter = () => {
             <Button text="Subscribe" />
           </div>
         </div>
-        <div className="w-full md:block hidden">
-          <div className="bg-secondary-300 pt-[43.66px] md:pt-0  relative overflow-hidden max-w-[576px] h-[512px]">
+        <div className="w-full md:block hidden ">
+          <div className="bg-secondary-300 pt-[43.66px] md:pt-0  rounded-[8px] relative overflow-hidden max-w-[576px] h-[512px]">
             <Image
               alt="newsletter"
               src={Phone1}

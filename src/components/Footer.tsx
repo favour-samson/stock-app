@@ -12,7 +12,7 @@ import { CiFacebook } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="mt-[533.22px]  md:mt-[80px] bg-primary-500">
+    <div className=" mt-[110.22px] md:mt-0 bg-primary-500">
       <div className="max-w-[1440px] md:h-[758px] ">
         <div className="max-w-[1280px] px-[32px] mx-auto">
           <div className="max-w-[1216px] pt-[64px] flex flex-col items-center md:h-[270px]">

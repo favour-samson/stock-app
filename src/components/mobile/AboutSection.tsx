@@ -9,7 +9,7 @@ const AboutSectionMobile = () => {
     <div className="pt-[24px] ">
       <SectionHeader title="About" text="Your success is our success" />
       <div className="px-[23px]">
-        <p className="text-[14px] text-center  leading-[24px] font-normal text-[#3B4B4B]">
+        <p className="text-[14px] dark:text-white text-center  leading-[24px] font-normal text-[#3B4B4B]">
           BGL Securities Limited is the securities trading platform of BGL. It
           also doubles as the vehicle for distributing all public offers. The
           company has the following licenses:

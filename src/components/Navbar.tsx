@@ -10,16 +10,16 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full bg-[#EFF9F9] md:h-[213px] overflow-hidden">
+    <div className="w-full dark:bg-[#131414] bg-[#EFF9F9] md:h-[213px] overflow-hidden">
       <div>
         <Image src={NavTopImage} alt="" width={1444} height={74} />
       </div>
-      <nav className="max-w-[1280px] pt-[40px] mx-auto h-auto bg-[#EFF9F9] flex items-center justify-between p-4 text-white">
+      <nav className="max-w-[1280px] pt-[40px] mx-auto h-auto  flex items-center justify-between p-4 text-white">
         <div className="font-bold text-xl flex items-center">
           <Link href="/">
             <Image alt="logo" src={logo} width={257} className="object-cover" />
           </Link>
-          <ul className="lg:flex flex-1 lg:items-center lg:pb-0 pb-12 font-semibold lg:text-base text-sm absolute text-primary-500 lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-300 ease-in">
+          <ul className="lg:flex flex-1  lg:items-center lg:pb-0 pb-12 font-semibold lg:text-base text-sm absolute dark:text-white text-primary-500 lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-300 ease-in">
             <li className="lg:ml-8  lg:my-0 my-7">
               <Link href="/about">About Us</Link>
             </li>
@@ -43,8 +43,8 @@ const Navbar = () => {
               <ThemeToggle />
             </div>
             <div>
-              <button className="lg:text-base text-sm font-semibold px-[18px] py-[10px]">
-                Login
+              <button className="lg:text-base dark:text-[white] text-sm font-semibold px-[18px] py-[10px]">
+                Log In
               </button>
             </div>
             <div className="ml-[12px]">
