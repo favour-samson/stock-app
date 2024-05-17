@@ -88,7 +88,7 @@ const Newsletter = () => {
           </div>
         </div> */}
 
-        <div className="bg-secondary-300 pt-[43.66px] md:pt-0 mx-auto relative w-full h-[323px]">
+        <div className="bg-secondary-300 block md:hidden pt-[43.66px] md:pt-0 mx-auto relative w-full h-[323px]">
           <Image
             alt="newsletter"
             src={MoiblePhone1}

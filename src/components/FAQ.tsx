@@ -53,7 +53,7 @@ const FAQ = () => {
             </p>
           </div>
 
-          <div className="pt-[61.37px] block md:hidden">
+          <div className="pt-[61.37px]  block md:hidden">
             <SectionHeaderMobile title="support" text="FAQs" />
             <p className="font-normal pt-[14.14px] text-center px-[8.84px] text-[12.38px] leading-[21.21px] text-[#6B7878]">
               Everything you need to know about us and our market. Can’t find
