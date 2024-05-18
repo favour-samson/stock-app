@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="blur-div left-[-38px] top-[-50px] absolute"></div>
       ) : null}
 
-      <div className=" hero h-auto dark:bg-[#131414] px-[19px] md:px-0 md:h-[650px] bg-[#EFF9F9]  pt-[39px]">
+      <div className=" hero h-[400px] dark:bg-[#131414] px-[19px] md:px-0 md:h-[650px] bg-[#EFF9F9]  pt-[39px]">
         <div className="max-w-[367px]  dark:bg-[#131414] flex  justify-between md:justify-start pr-[7.33px] items-center mx-auto bg-secondary-500 dark:border-[#FD891C] rounded-[16px] h-[32px] border-primary-500 border-[1.5px]">
           <div className="w-[107px] flex items-center justify-center  text-center ml-[4px] mr-[12px]  rounded-[16px] h-[24px] dark:border-[#FD891C] border-primary-500 border-[1.5px]">
             <p className="dark:text-white  text-primary-500 text-center font-medium md:text-[14px] text-[8px]">
@@ -29,6 +29,7 @@ const Hero = () => {
             <FaArrowRight color="#96CCCC" />
           </div>
         </div>
+
         <div className="max-w-[1024px] pt-[16px] mx-auto">
           <h1 className="dark:text-white text-primary-500 text-center font-bold md:leading-[72px] text-[32px] leading-[32px]  md:text-[60px] dm-sans">
             Navigate the dynamic world of financial markets.
@@ -57,7 +58,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute md:h-[432px]  rounded-md overflow-hidden z-20 bottom-[-115px] md:bottom-[-270px] left-1/2 transform -translate-x-1/2 w-full max-w-[768px] ">
+      <div className="absolute md:h-[432px]  rounded-md overflow-hidden z-20 bottom-[-115px] la:bottom-[-170px] md:bottom-[-270px] left-1/2 transform -translate-x-1/2 w-full max-w-[768px] ">
         <Image
           alt="vido"
           src={herePlayer}
@@ -68,75 +69,77 @@ const Hero = () => {
       </div>
       {/* <VideoPlayer /> */}
 
-      <div className="md:hidden block">
-        <div className="absolute  bottom-[-10px]">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={154}
-            height={43}
-            fill="none"
-          >
-            <path
-              fill="#DAECEC"
-              d="M.543 19.407 154 .22v23.384L.543 42.79V19.407Z"
-            />
-          </svg>
+      {theme === "light" && (
+        <div className="md:hidden block">
+          <div className="absolute  bottom-[-10px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={154}
+              height={43}
+              fill="none"
+            >
+              <path
+                fill="#DAECEC"
+                d="M.543 19.407 154 .22v23.384L.543 42.79V19.407Z"
+              />
+            </svg>
+          </div>
+          <div className="absolute bottom-[-45px]">
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={37}
+              height={43}
+              fill="none"
+            >
+              <path
+                fill="#96CCCC"
+                d="M-117 19.188 36.457 0v23.384L-117 42.572V19.188Z"
+              />
+            </svg>
+          </div>
+          <div className="absolute right-0 bottom-[80px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={121}
+              height={38}
+              fill="none"
+            >
+              <path
+                fill="#96CCCC"
+                d="M.59 16.934 136.016 0v20.636L.59 37.57V16.934Z"
+              />
+            </svg>
+          </div>
+          <div className="absolute right-0 bottom-[53px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={172}
+              height={46}
+              fill="none"
+            >
+              <path
+                fill="#AFD9D9"
+                d="M0 25.046 197.336.279v20.637L0 45.682V25.046Z"
+              />
+            </svg>
+          </div>
+          <div className="absolute right-0 bottom-[40px]">
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={33}
+              height={38}
+              fill="none"
+            >
+              <path
+                fill="#DAECEC"
+                d="M.29 17.012 135.715.078v20.637L.289 37.648V17.012Z"
+              />
+            </svg>
+          </div>
         </div>
-        <div className="absolute bottom-[-45px]">
-          {" "}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={37}
-            height={43}
-            fill="none"
-          >
-            <path
-              fill="#96CCCC"
-              d="M-117 19.188 36.457 0v23.384L-117 42.572V19.188Z"
-            />
-          </svg>
-        </div>
-        <div className="absolute right-0 bottom-[80px]">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={121}
-            height={38}
-            fill="none"
-          >
-            <path
-              fill="#96CCCC"
-              d="M.59 16.934 136.016 0v20.636L.59 37.57V16.934Z"
-            />
-          </svg>
-        </div>
-        <div className="absolute right-0 bottom-[53px]">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={172}
-            height={46}
-            fill="none"
-          >
-            <path
-              fill="#AFD9D9"
-              d="M0 25.046 197.336.279v20.637L0 45.682V25.046Z"
-            />
-          </svg>
-        </div>
-        <div className="absolute right-0 bottom-[40px]">
-          {" "}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={33}
-            height={38}
-            fill="none"
-          >
-            <path
-              fill="#DAECEC"
-              d="M.29 17.012 135.715.078v20.637L.289 37.648V17.012Z"
-            />
-          </svg>
-        </div>
-      </div>
+      )}
 
       <div className="hidden md:block left2 z-10 absolute bottom-[-80px]">
         {" "}

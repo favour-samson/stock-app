@@ -29,6 +29,7 @@ const config: Config = {
       },
       screens: {
         md: "957px",
+        la: "520px",
       },
     },
   },
