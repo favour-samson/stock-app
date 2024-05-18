@@ -53,15 +53,15 @@ body {
 }
 
 .blur-div {
-  width: 466.67px;
-  height: 216.12px;
+  width: 45%;
+  height: 40%;
   background: linear-gradient(
     180deg,
     rgba(222, 141, 28, 0.7) 0%,
     rgba(74, 61, 42, 0.7) 100%
   );
   transform: rotate(-120deg);
-  filter: blur(75px);
+  filter: blur(90px);
   opacity: 0.4;
   z-index: 999 !important;
 }
