@@ -85,7 +85,7 @@ const Navbar = () => {
           className={`${
             isOpen
               ? "hidden"
-              : "lg:hidden w-[43px] z-50 h-[39px] rounded-[3.54px] dark:bg-[#131414] dark:border dark:border-primary-200 bg-secondary-300 flex items-center justify-center "
+              : "lg:hidden w-[43px] z-50 h-[39px] rounded-[3.54px] dark:bg-[#131414]  dark:border dark:border-primary-200 bg-secondary-300 flex items-center justify-center "
           } `}
           onClick={() => setIsOpen(!isOpen)}
         >
@@ -102,7 +102,7 @@ const Navbar = () => {
             ></motion.div>
             <motion.div
               {...framerSidebarPanel}
-              className="fixed top-0 bottom-0 left-0 z-50 w-full h-screen max-w-xs border-r-2  dark:border-zinc-800 dark:bg-zinc-900 bg-white "
+              className="fixed top-0 bottom-0 left-0 z-50 w-full  max-w-xs border-r-2  dark:border-zinc-800 dark:bg-zinc-900 bg-white "
               aria-label="Sidebar"
             >
               <div className="flex items-center justify-between p-5 border-b-2 dark:border-zinc-800">
