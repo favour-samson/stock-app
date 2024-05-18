@@ -1,11 +1,15 @@
 import Image from "next/image";
 import MobileApp from "@/images/app.png";
+import darkMobileApp from "@/images/darkMobile.png";
 import MobileAppSmall from "@/images/mobileappsmall.png";
 import DownloadButton from "./DownloadButton";
 import AppleLogo from "@/images/Applelogo.png";
 import GoogleLogo from "@/images/Google Play logo_Light.png";
+import { useTheme } from "next-themes";
 
 const MobileSection = () => {
+  const { theme } = useTheme();
+
   return (
     <div className="dark:bg-[#1C1F1F] py-[80px]">
       <section className="max-w-[1280px] px-[20.7px] md:px-0 mx-auto text-white">
@@ -47,7 +51,7 @@ const MobileSection = () => {
           {/* Display this div only on desktop */}
           <div className="hidden lg:block">
             <Image
-              src={MobileApp}
+              src={theme === "dark" ? darkMobileApp : MobileApp}
               alt="App Interface"
               width={680}
               height={480}

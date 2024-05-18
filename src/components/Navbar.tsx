@@ -1,23 +1,32 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaBars, FaRegLightbulb, FaTimes } from "react-icons/fa";
 import NavTopImage from "@/images/navtop.png";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/images/logo.png";
+import navlogo from "@/images/darkLogo.png";
 import Button from "./Button";
 import ThemeToggle from "./ThemesToggle";
+import { useTheme } from "next-themes";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const { theme } = useTheme();
+
   return (
-    <div className="w-full dark:bg-[#131414] bg-[#EFF9F9] md:h-[213px] overflow-hidden">
+    <div className=" w-full dark:bg-[#131414] bg-[#EFF9F9] md:h-[213px] overflow-hidden">
       <div>
         <Image src={NavTopImage} alt="" width={1444} height={74} />
       </div>
-      <nav className="max-w-[1280px] pt-[40px] mx-auto h-auto  flex items-center justify-between p-4 text-white">
+      <nav className="max-w-[1280px] relative pt-[40px] mx-auto h-auto  flex items-center justify-between p-4 text-white">
         <div className="font-bold text-xl flex items-center">
           <Link href="/">
-            <Image alt="logo" src={logo} width={257} className="object-cover" />
+            <Image
+              alt="logo"
+              src={theme === "dark" ? navlogo : logo}
+              width={257}
+              className="object-cover"
+            />
           </Link>
           <ul className="lg:flex flex-1  lg:items-center lg:pb-0 pb-12 font-semibold lg:text-base text-sm absolute dark:text-white text-primary-500 lg:static lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-300 ease-in">
             <li className="lg:ml-8  lg:my-0 my-7">

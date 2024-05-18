@@ -49,7 +49,10 @@ const FAQ = () => {
             </h1>
             <p className="font-normal pt-[20px] dark:text-[#6B7878] text-[18px] leading-[28px] text-[#6B7878]">
               Everything you need to know about us and our market. Can’t find
-              the answer you’re looking for? Please chat to our friendly team.
+              the answer you’re looking for?{" "}
+              <span className="dark:text-[#19734e] dark:underline">
+                Please chat to our friendly team.
+              </span>
             </p>
           </div>
 

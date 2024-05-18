@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { MdOutlineLightMode } from "react-icons/md";
+import { CiDark } from "react-icons/ci";
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
@@ -18,7 +19,11 @@ const ThemeToggle = () => {
 
   return (
     <button onClick={handleToggle}>
-      <MdOutlineLightMode size={25} />
+      {theme === "dark" ? (
+        <CiDark size={25} color="white" />
+      ) : (
+        <MdOutlineLightMode size={25} />
+      )}
     </button>
   );
 };

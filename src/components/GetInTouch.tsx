@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const GetInTouch = () => {
   return (
-    <div className="md:h-[405px] dark:bg-[#1C1F1F] py-[80px] px-[32px] md:px-0 ">
+    <div className="md:h-[405px] dark:bg-[#1C1F1F] py-[80px] md:pt-[26px] px-[32px] md:px-0 ">
       <div className="max-w-[1280px]  mx-auto px-[32px] ">
         <div className="max-w-[1216px] md:h-[294px] relative bg-[#EAF8F8] dark:bg-[#131414] rounded-[16px]">
           <div className="relative w-[120px] mx-auto flex items-center justify-center ">

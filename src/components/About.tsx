@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import AboutImg from "@/images/about.png";
+import darkAboutImg from "@/images/darkAbout.png";
 import SectionHeader from "./SectionHeader";
+import { useTheme } from "next-themes";
 
 const AboutSection = () => {
+  const { theme } = useTheme();
   return (
     <div className="h-[834px] dark:bg-[#131414] pt-[80px]">
       <div className="px-[32px] max-w-[1280px] mx-auto h-[730px]">
@@ -35,9 +38,9 @@ const AboutSection = () => {
           </div>
           <div className="">
             <Image
-              src={AboutImg}
+              src={theme === "dark" ? darkAboutImg : AboutImg}
               alt="Graphical Representation"
-              width={650}
+              width={theme === "dark" ? 576 : 650}
               height={560}
               objectFit="cover"
             />
